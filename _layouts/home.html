@@ -23,7 +23,7 @@ layout: default
               <p>
                 {{ category.last[0].excerpt }}
               </p>
-              <a href="{{ category.last[0].url }}"> ادامه مطلب</a>
+              <a href="{{ site.url }}/{{ category.last[0].url }}"> ادامه مطلب</a>
 
             </figcaption>
 
@@ -43,7 +43,7 @@ layout: default
                 <p>
                   {{ category.last[1].excerpt }}
                 </p>
-                <a href="{{ category.last[1].url }}"> ادامه مطلب</a>
+                <a href="{{ site.url }}/{{ category.last[1].url }}"> ادامه مطلب</a>
 
               </figcaption>
 
@@ -63,7 +63,7 @@ layout: default
                 <p>
                   {{ category.last[2].excerpt }}
                 </p>
-                <a href="{{ category.last[2].url }}"> ادامه مطلب</a>
+                <a href="{{ site.url }}/{{ category.last[2].url }}"> ادامه مطلب</a>
 
               </figcaption>
 
@@ -94,7 +94,7 @@ layout: default
             <p>
               {{post.excerpt}}
             </p>
-            <a href="{{post.url}}" class="readmore">ادامه مطلب</a>
+            <a href="{{ site.url }}/{{post.url}}" class="readmore">ادامه مطلب</a>
           </figcaption>
         </figure>
       </div>
